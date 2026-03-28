@@ -1,0 +1,25 @@
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node / React
+node_modules/
+build/
+
+# Environment
+.env.*
+!.env.example
+
+# Uploads (if you store images locally)
+uploads/
+media/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
