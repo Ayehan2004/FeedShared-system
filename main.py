@@ -1,6 +1,4 @@
-def main():
-    print("Hello from feedshared-system!")
-
+import uvicorn
 
 if __name__ == "__main__":
-    main()
+    uvicorn.run("src.app.app:app", host="localhost", port=8000, reload=True)  
